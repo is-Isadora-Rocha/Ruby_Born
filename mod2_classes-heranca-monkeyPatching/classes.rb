@@ -15,3 +15,7 @@ b = a
 b.downcase! 
 # métodos com "!" alteram o objeto por inteiro. 
 puts a 
+
+c = a.clone
+c.upcase!
+puts "essa é a variável c e a, respectivamente: \n" + c + "\n" + a
