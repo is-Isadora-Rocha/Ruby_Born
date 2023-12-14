@@ -37,7 +37,6 @@ numero e atribuindo em @numero.
     def fechar
         puts "Comanda fechada!"
     end
-end
 
 =begin
     Uma particularidade do Ruby é que TODO e qualquer atributo de um objeto é privado ao próprio 
@@ -47,30 +46,30 @@ end
 
 # cria um Objeto a partir da Classe 
 
-def atendente=(atendente)
-    @atendente = atendente
-  end
+    def atendente=(atendente)
+        @atendente = atendente
+    end
 
-def atendente
-    @atendente
-end
+    def atendente
+        @atendente
+    end
 
-def mesa=(mesa)
-    @mesa = mesa
-end
+    def mesa=(mesa)
+        @mesa = mesa
+    end
 
-def mesa 
-    @mesa
-end
+    def mesa 
+        @mesa
+    end
 
-def itens=(itens)
-    @itens= itens
-end
+    def itens=(itens)
+        @itens= itens
+    end
 
-def itens 
-    @itens
-end
-
+    def itens 
+        @itens
+    end
+end 
 
 minha_comanda = Comanda.new
 minha_comanda.numero = 5421
