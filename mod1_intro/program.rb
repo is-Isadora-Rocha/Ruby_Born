@@ -1,3 +1,5 @@
+# para executar: terminal -> entrar na pasta -> ruby program.rb 
+
 # nil = null 
 
 nome_completo = "Isadora Rocha"
@@ -11,7 +13,6 @@ puts texto
 
 # ---------------------------------------------------
 
-# padrão de variáveis != camelcase
 preco = 50
 preco_unitario = 70
 
