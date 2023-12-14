@@ -1,9 +1,10 @@
 class Senha
-    @contador_de_senhas = 0 
-    attr_accessor :numero, :paciente
+    @contador_de_senhas = 0 #inicializando a variável
+    attr_accessor :numero, :paciente #getters e setters
 
-    def initialize (numero, paciente)
-        @numero = numero
+    #construtor no qual é informado os valores que nossos objetos sejam criados
+    def initialize (numero, paciente) 
+        @numero = numero 
         @paciente = paciente
     end
 

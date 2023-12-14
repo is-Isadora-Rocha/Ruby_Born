@@ -71,6 +71,8 @@ O attr_reader é um método interno do Ruby que está pegando este Array de valo
     def numero=(numero)
         @numero = numero
         # @numero = variável de instância e ela faz parte APENAS do escopo do objeto
+         um atributo de um objeto nunca será manipulado diretamente fora dele, porque 
+         não existe outro recurso seguro para que isso seja feito além de um Método.
     end
 
     # método para acessar o valor do atributo @numero
