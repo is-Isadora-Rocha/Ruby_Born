@@ -71,7 +71,7 @@ numero e atribuindo em @numero.
     end
 end 
 
-minha_comanda = Comanda.new
+minha_comanda = Comanda.new #Objeto = instância | criar um objeto = instanciar
 minha_comanda.numero = 5421
 minha_comanda.atendente = 'Maria'
 minha_comanda.mesa = 17
