@@ -150,3 +150,5 @@ terceira_comanda = Comanda.new(Comanda.gerar_num, 9, 'Maria')
 terceira_comanda.itens = ['Café coado', 'Pastel de Frango']
 puts "Número: #{terceira_comanda.numero} | Atendente: #{terceira_comanda.atendente} | Mesa: #{terceira_comanda.mesa} | Itens: #{terceira_comanda.itens.join(',')}"
 
+#ATENÇÃO, CRÉDITOS AO DANIEL MORETO 
+#https://dev.to/moretoend/orientacao-a-objetos-com-ruby-parte-1-introducao-e-historia-43l5
